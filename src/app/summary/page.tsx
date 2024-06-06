@@ -5,7 +5,7 @@ import { TableDemo } from "@/components/TableDemo"
 import NavLinks from "@/components/NavLinks"
 const Summary = () => {
   return (
-    <div className=" grid grid-cols-[63px_1fr] max-w-[50em] mx-auto border  h-full bg-white rounded-lg  ">
+    <div className=" grid grid-cols-[63px_1fr] max-w-[61em] mx-auto border  h-full bg-white rounded-lg  ">
       <LeftSideBar />
       <div className="p-3">
         <nav className=" border-b py-1 pb-[0.4rem] flex justify-between items-center bg-white z-30 sticky top-0 left-0 right-0">

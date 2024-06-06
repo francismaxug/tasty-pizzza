@@ -11,14 +11,14 @@ import NavLinks from "@/components/NavLinks"
 import Link from "next/link"
 const Home = () => {
   return (
-    <div className=" grid grid-cols-[63px_1fr_320px] max-w-[61rem] mx-auto border relative  h-full bg-white rounded-lg ">
+    <div className=" grid grid-cols-[63px_1fr_320px] max-w-[61rem] mx-auto border relative  h-full bg-white rounded-lg shadow-inner ">
       <LeftSideBar />
       <div className="p-3">
         <NavBar />
 
         <div className=" py-4 border-b bg-white z-30 sticky top-[2.738rem]  left-0 right-0">
           <h1 className=" text-xs font-bold text-slate-600 mb-3">Categories</h1>
-          <div className=" flex gap-x-[0.55rem] items-center  flex-wrap">
+          <div className=" flex gap-x-[0.55rem] gap-y-2 items-center  flex-wrap">
             <Link
               href="#"
               className=" rounded-full py-1 border-2 border-black/5 px-4 text-xs  bg-blue-500 text-white"
